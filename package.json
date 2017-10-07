@@ -1,5 +1,5 @@
 {
-    "name": "isit-site-tools",
+    "name": "isit-site-tools-james",
     "version": "1.0.0",
     "description": "Isit tooling for building web sites",
     "main": "index.js",
@@ -15,12 +15,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "bitbucket"
+        "url": "git@github.com:jamesp21/isit-site-tools-james.git"
     },
     "keywords": [
         "markdown"
     ],
-    "author": "Charlie Calvert",
+    "author": "James Porter",
     "license": "MIT",
     "dependencies": {
         "highlight.js": "^9.12.0",
