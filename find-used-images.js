@@ -1,7 +1,7 @@
 //const getNotUsed = require('./image-help/index').getNotUsed;
 const configSettings = require('./image-help/index').configSettings;
 
-const elfConfig = require('isit-code-lastname').elfConfig;
+const elfConfig = require('isit-code-james').elfConfig;
 
 elfConfig.load(function() {
     console.log('CONFIG SETTINGS:', configSettings);

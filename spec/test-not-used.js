@@ -5,8 +5,8 @@
 describe('Test Not Used Suite', function() {
     'use strict';
 
-    const elfConfig = require('isit-code-lastname').elfConfig;
-    const elfLog = require('isit-code-lastname').elfLog('test-not-used');
+    const elfConfig = require('isit-code-james').elfConfig;
+    const elfLog = require('isit-code-james').elfLog('test-not-used');
     const configurationSettings = require('../image-help/index').configSettings;
     const configureTests = require('./configure-tests');
     const imagesUsed = require('../image-help/index').imagesUsed;

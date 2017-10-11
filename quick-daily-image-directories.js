@@ -2,7 +2,7 @@
  * Created by charlie on 7/8/16.
  */
 
-const elfConfig = require('isit-code-lastname').elfConfig;
+const elfConfig = require('isit-code-james').elfConfig;
 const createDirectories = require('./image-help/create-directories/create-directories');
 const configurationSettings = require('./image-help/make-markdown/misc/config-settings');
 

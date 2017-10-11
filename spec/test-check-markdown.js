@@ -7,7 +7,7 @@ describe('Test Check Markdown Suite', function() {
 
     const checkMarkdown = require('../image-help/make-markdown/misc/check-markdown');
     const configSettings = require('../image-help/index').configSettings;
-    const elfConfig = require('isit-code-lastname').elfConfig;
+    const elfConfig = require('isit-code-james').elfConfig;
 //    const makeMarkdown = require('../image-help/index').makeMarkdown;
     const validateSchema = require('../image-help/make-markdown/misc/validate-schema');
 
