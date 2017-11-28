@@ -44,40 +44,40 @@
             ]
         }
     },
-        "elvenImages": [
-            {
-                "name": "doc",
-                "baseDir": "The base directory where the images to be processed are found",
-                "cloudPath": "Base string found in markdown files",
-                "createSmallImages": true
-            },
-            {
-                "name": "california1",
-                "baseDir": "/var/www/html/images",
-                "cloudPath": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
-                "createSmallImages": true
-            },
-            {
-                "name": "california2",
-                "baseDir": "/var/www/html/images",
-                "cloudPath": "/images",
-                "createSmallImages": true
-            },
-            {
-                "name": "california3",
-                "baseDir": "/var/www/html/images",
-                "cloudPath": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
-                "createSmallImages": true
-            },
-            {
-                "name": "testImages",
-                "baseDir": "/home/bcuser/Git/writings/Tech/Markdown",
-                "cloudPath": "/images",
-                "createSmallImages": true
-            }
-        ],
-        "selectedElvenImages": [
-            "california1",
-            "california2"
-        ]
+    "elvenImages": [
+        {
+            "name": "doc",
+            "baseDir": "The base directory where the images to be processed are found",
+            "cloudPath": "Base string found in markdown files",
+            "createSmallImages": true
+        },
+        {
+            "name": "california1",
+            "baseDir": "/var/www/html/images",
+            "cloudPath": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
+            "createSmallImages": true
+        },
+        {
+            "name": "california2",
+            "baseDir": "/var/www/html/images",
+            "cloudPath": "/images",
+            "createSmallImages": true
+        },
+        {
+            "name": "california3",
+            "baseDir": "/var/www/html/images",
+            "cloudPath": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
+            "createSmallImages": true
+        },
+        {
+            "name": "testImages",
+            "baseDir": "/home/james/Git/writings/Tech/Markdown",
+            "cloudPath": "/images",
+            "createSmallImages": true
+        }
+    ],
+    "selectedElvenImages": [
+        "california1",
+        "california2"
+    ]
 }

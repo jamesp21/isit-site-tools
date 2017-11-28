@@ -13,49 +13,51 @@ const wholeSchema = {
     '$schema': 'http://json-schema.org/draft-04/schema#',
     'type': 'object',
     'properties': {
-        'calvert': {
-            'type': 'object',
-            'properties': {
-                'base-dir': {
-                    'type': 'string'
-                },
-                'site-dirs': {
-                    'type': 'array',
-                    'items': {
+        "users": {
+            'calvert': {
+                'type': 'object',
+                'properties': {
+                    'base-dir': {
                         'type': 'string'
-                    }
-                },
-                'destination-dirs': {
-                    'type': 'array',
-                    'items': {
-                        'type': 'string'
-                    }
-                },
-                'destination-dirs-extra': {
-                    'type': 'array',
-                    'items': {
-                        'type': 'object',
-                        'properties': {
-                            'base': {
-                                'type': 'string'
+                    },
+                    'site-dirs': {
+                        'type': 'array',
+                        'items': {
+                            'type': 'string'
+                        }
+                    },
+                    'destination-dirs': {
+                        'type': 'array',
+                        'items': {
+                            'type': 'string'
+                        }
+                    },
+                    'destination-dirs-extra': {
+                        'type': 'array',
+                        'items': {
+                            'type': 'object',
+                            'properties': {
+                                'base': {
+                                    'type': 'string'
+                                },
+                                'extra': {
+                                    'type': 'string'
+                                }
                             },
-                            'extra': {
-                                'type': 'string'
-                            }
-                        },
-                        'required': [
-                            'base',
-                            'extra'
-                        ]
+                            'required': [
+                                'base',
+                                'extra'
+                            ]
+                        }
                     }
-                }
-            },
-            'required': [
-                'base-dir',
-                'site-dirs',
-                'destination-dirs',
-                'destination-dirs-extra'
-            ]
+                },
+                'required': [
+                    'base-dir',
+                    'site-dirs',
+                    'destination-dirs',
+                    'destination-dirs-extra'
+                ]
+            }
         },
         'elvenImages': {
             'type': 'array',

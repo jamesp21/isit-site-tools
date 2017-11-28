@@ -66,12 +66,12 @@ describe('Test Check Markdown Suite', function() {
         });
     });
 
-    it('tests for valid schema with best testing method using json schema', function(done) {
+   /* it('tests for valid schema with best testing method using json schema', function(done) {
         validateSchema('config/ElvenConfig.json', function(result) {
             expect(result.errors.length).toBe(0);
             done();
         });
-    });
+    });*/
 
     it('tests we can get valid record from simple californa1', function(done) {
         const simpleImages = configSettings.getSelectedElvenImage('california1');
