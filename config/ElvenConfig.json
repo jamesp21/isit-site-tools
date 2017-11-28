@@ -42,7 +42,8 @@
                     "extra": "Assignments"
                 }
             ]
-        },
+        }
+    },
         "elvenImages": [
             {
                 "name": "doc",
@@ -79,9 +80,4 @@
             "california1",
             "california2"
         ]
-    },
-    "selectedElvenImages": [
-        "california1",
-        "california2"
-    ]
 }
