@@ -40,6 +40,7 @@ describe('Create directories for each day we took photos', function() {
         const testImages = configurationSettings.getSelectedElvenImage('testImages');
         const picturePath = createDirectories.getPicturePath(testImages);
         expect(picturePath).toBe('/home/james/Git/writings/Tech/Markdown/testImages/');
+
         //done();
     });
 
